@@ -1,0 +1,104 @@
+# Changelog
+
+## [4.0.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v3.1.0...v4.0.0) (2026-09-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* this change causes recreates
+
+### Features
+
+* azurerm provider 5 upgrade ([#36](https://github.com/CloudNationHQ/terraform-azure-plan/issues/36)) ([64a64c4](https://github.com/CloudNationHQ/terraform-azure-plan/commit/64a64c4037e8f3965e9e7452823207c0e8e509be))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#31](https://github.com/CloudNationHQ/terraform-azure-plan/issues/31)) ([cddb586](https://github.com/CloudNationHQ/terraform-azure-plan/commit/cddb586ac4180e4a74e0d5e4704894a63b2ed01d))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#33](https://github.com/CloudNationHQ/terraform-azure-plan/issues/33)) ([d31a0a7](https://github.com/CloudNationHQ/terraform-azure-plan/commit/d31a0a7e1aace2fe85d47d09deb2d1348fe3ab9c))
+* **deps:** bump golang.org/x/crypto from 0.45.0 to 0.52.0 in /tests ([#34](https://github.com/CloudNationHQ/terraform-azure-plan/issues/34)) ([ba5c11b](https://github.com/CloudNationHQ/terraform-azure-plan/commit/ba5c11b1dec4f47d1e4bf51714ad19666bb6efd4))
+
+## [3.1.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v3.0.1...v3.1.0) (2026-03-05)
+
+
+### Features
+
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#27](https://github.com/CloudNationHQ/terraform-azure-plan/issues/27)) ([826d9d2](https://github.com/CloudNationHQ/terraform-azure-plan/commit/826d9d2f2acffb8af4533ef863026e2f130d9a18))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#30](https://github.com/CloudNationHQ/terraform-azure-plan/issues/30)) ([295d875](https://github.com/CloudNationHQ/terraform-azure-plan/commit/295d875567602b921d945f87209ddef54098e229))
+
+
+### Bug Fixes
+
+* update service plan schema to include premium_plan_auto_scale_enabled ([#29](https://github.com/CloudNationHQ/terraform-azure-plan/issues/29)) ([fd3c303](https://github.com/CloudNationHQ/terraform-azure-plan/commit/fd3c30352471b9e95b47c477947d6ddae9c3486f))
+
+## [3.0.1](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v3.0.0...v3.0.1) (2026-02-17)
+
+
+### Bug Fixes
+
+* remove faulty validations ([#25](https://github.com/CloudNationHQ/terraform-azure-plan/issues/25)) ([dc3fa43](https://github.com/CloudNationHQ/terraform-azure-plan/commit/dc3fa43548d038f2119ec6429aa815fd9de316b2))
+
+## [3.0.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v2.2.0...v3.0.0) (2025-05-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* The data structure changed, causing a recreate on existing resources.
+
+### Features
+
+* small refactor ([#23](https://github.com/CloudNationHQ/terraform-azure-plan/issues/23)) ([205a9cd](https://github.com/CloudNationHQ/terraform-azure-plan/commit/205a9cdefff5cf94d16d7c2ffbf49f832141ea8a))
+* updated documentation
+* added type definitions
+* added submodule app service environment
+* added multiple example usages
+
+### Upgrade from v2.2.0 to v3.0.0:
+
+- Update module reference to: `version = "~> 3.0"`
+- The property and variable resource_group is renamed to resource_group_name
+
+## [2.2.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v2.1.0...v2.2.0) (2024-11-11)
+
+
+### Features
+
+* enhance testing with sequential, parallel modes and flags for exceptions and skip-destroy ([#14](https://github.com/CloudNationHQ/terraform-azure-plan/issues/14)) ([3489ae5](https://github.com/CloudNationHQ/terraform-azure-plan/commit/3489ae5a2e469c4bad684979bdf0520c0de1ad2b))
+
+## [2.1.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v2.0.0...v2.1.0) (2024-10-11)
+
+
+### Features
+
+* auto generated docs and refine makefile ([#12](https://github.com/CloudNationHQ/terraform-azure-plan/issues/12)) ([c6b4e81](https://github.com/CloudNationHQ/terraform-azure-plan/commit/c6b4e811c82b9e81340baa186a295a69ad37eb2a))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#11](https://github.com/CloudNationHQ/terraform-azure-plan/issues/11)) ([1ac8fec](https://github.com/CloudNationHQ/terraform-azure-plan/commit/1ac8fec0f79f624581e3eca89c42842353a8510f))
+
+## [2.0.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v1.1.1...v2.0.0) (2024-09-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* Version 4 of the azurerm provider includes breaking changes.
+
+### Features
+
+* upgrade azurerm provider to v4 ([#9](https://github.com/CloudNationHQ/terraform-azure-plan/issues/9)) ([ca2f814](https://github.com/CloudNationHQ/terraform-azure-plan/commit/ca2f81482ab8cf631faf7c9cda2f8ad6fae8f32e))
+
+### Upgrade from v1.1.1 to v2.0.0:
+
+- Update module reference to: `version = "~> 2.0"`
+
+## [1.1.1](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v1.1.0...v1.1.1) (2024-08-15)
+
+
+### Bug Fixes
+
+* wrong module reference ([4c44230](https://github.com/CloudNationHQ/terraform-azure-plan/commit/4c44230a22ec8a5b1be2cdef9a73e8ef52ce5c80))
+
+## [1.1.0](https://github.com/CloudNationHQ/terraform-azure-plan/compare/v1.0.0...v1.1.0) (2024-08-15)
+
+### Bug Fixes
+
+* fixed resource group and location conditions ([437f345](https://github.com/CloudNationHQ/terraform-azure-plan/commit/437f3451412d3073678d33e1108c751619ebf126))
+
+## 1.0.0 (2024-08-14)
+
+### Features
+
+* add initial resources ([8811c68](https://github.com/CloudNationHQ/terraform-azure-plan/commit/8811c6845c919f449cee98c61434bfef884c381a))

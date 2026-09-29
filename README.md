@@ -125,7 +125,7 @@ For more information, please see our contribution [guidelines](./CONTRIBUTING.md
 
 ## License
 
-MIT Licensed. See [LICENSE](https://github.com/cloudnationhq/terraform-azure-plan/blob/main/LICENSE) for full details.
+MIT Licensed. See [LICENSE](https://github.com/codectl/terraform-azure-plan/blob/main/LICENSE) for full details.
 
 ## References
 
